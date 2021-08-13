@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Main from './componenent/main/Main';
 
-export class Main extends React.PureComponent {
+export class Site extends React.PureComponent {
   render () {
     return (
-      <App/>
+      <Main/>
     )
   }
 }
 
-ReactDOM.render(<Main />, document.getElementById("root"))
+ReactDOM.render(<Site />, document.getElementById("root"))

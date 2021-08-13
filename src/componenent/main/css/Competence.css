@@ -1,0 +1,71 @@
+#competence {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(21, 23, 24);
+}
+
+.comp_box{
+    margin: 10px;
+    margin-top: -20em;
+    width: 78.3vh;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: rgb(35, 35, 35);
+    border-radius: 2%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-bottom: 25em;
+}
+
+.comp_title{
+    color: white;
+    font-weight: bold;
+    font-size: 4vh;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+}
+
+.comp_desc{
+    color: white;
+    font-size: 2.2vh;
+    margin: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comp_languages{
+    color: white;
+    margin-top: 3vh;
+}
+
+.comp_languages_title{
+    font-weight: bold;
+    font-size: 2.5vh;
+    margin: 0;
+}
+
+.comp_languages_pretitle{
+    font-size: 2.2vh;
+}
+
+.comp_logiciels{
+    color: white;
+    margin-top: 3vh;
+}
+
+.comp_logiciels_title{
+    font-weight: bold;
+    font-size: 2.5vh;
+    margin: 0;
+}
+
+.comp_logiciels p{
+    font-size: 2.2vh;
+}
