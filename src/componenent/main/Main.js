@@ -8,8 +8,9 @@ import "./css/Work.css"
 import "./css/Price.css"
 
 import profile from "../../img/avatar.png"
-import site1 from "../../img/site1.png"
 import git from "../../img/git-corner.png"
+
+import site1 from "../../img/site/site1.png"
 
 import Projet from "../project/Project"
 
@@ -26,7 +27,7 @@ export default class App extends React.PureComponent {
       <>
         <div id="accueil">
           <div className="gitcorner">
-            <a href="https://github.com/sawmodz" target="_blank">
+            <a href="https://github.com/sawmodz" target="_blank" rel="noreferrer" >
               <img src={git} alt="git"></img>
             </a>
           </div>

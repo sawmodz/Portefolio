@@ -1,8 +1,6 @@
 .myproject_img{
     height: auto;
     width: 100%;
-    border-top-left-radius: 1.5%;
-    border-top-right-radius: 1.5%;
     border-bottom: solid;
     border-bottom-width: 1px;
 }
@@ -27,9 +25,6 @@
     transition: 0.5s;
     width: 70vh;
     height: auto;
-    border: solid;
-    border-width: 1px;
-    border-radius: 2%;
     margin-bottom: 3em;
     background-color: white;
 }
